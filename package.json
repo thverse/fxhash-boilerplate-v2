@@ -8,8 +8,8 @@
   },
   "scripts": {
     "postinstall": "node ./lib/scripts/install.js",
-    "start:origin": "node ./lib/scripts/start.js",
-    "start": "webpack serve --config ./lib/config/webpack.config.dev.js",
+    "start": "node ./lib/scripts/start.js",
+    "start:dev": "webpack serve --config ./lib/config/webpack.config.dev.js",
     "build": "webpack --config ./lib/config/webpack.config.prod.js"
   },
   "author": "fxhash",
